@@ -47,5 +47,24 @@
   /* END OF BASE STYLES */
   .container {
     display: flex;
+    /* flex-direction: column;  3 boxes flexed direction vertical */
+    /* flex-direction: row;  3 boxes flexed direction horizontal */
+    /* justify-content: start;  3 boxes justified at left */
+    /* justify-content: end;  boxes justified at right */
+    /* justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: start;
+    align-items: end;
+    align-items: center; */
+
+    /* flex-wrap: wrap;  default as nowrap, which will wrap when no space */
+    /* align-content: end; align all items to end or start which still have wrap */
+    /* gap: 1rem; */
   }
   
+ .item-2 {
+    /* flex-grow: 1; item will grow till fit the axis */
+    /* flex-shrink: 2; alown faster or slower when reponsive */
+    /* align-self: center; */
+  }
